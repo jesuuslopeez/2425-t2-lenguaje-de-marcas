@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>ZENZONE | BRAND</title>
+</head>
+<body>
+    <header class="cabecera">
+        <article class="cabecera__logo">
+            <a href="index.html"><img src="assets/zenzone-text.png" alt="Logo ZENZONE" class="logo__imagen"></a>
+        </article>
+
+        <article class="cabecera__menu">
+            <nav class="menu__navegacion">
+                <ul class="navegacion__lista">
+                    <li class="lista__elemento"><a href="index.html" class="elemento__enlace">Home</a></li>
+                    <li class="lista__elemento dropdown">
+                        <p class="elemento__enlace">Products</p>
+                        <ul class="dropdown__menu">
+                            <li><a href="clothing.html" class="dropdown__enlace">Clothing</a></li>
+                            <li><a href="merch.html" class="dropdown__enlace">Merch</a></li>
+                        </ul>
+                    </li>
+                    <li class="lista__elemento"><a href="brand.html" class="elemento__enlace">Brand</a></li>
+                    <li class="lista__elemento"><a href="contact.html" class="elemento__enlace">Contact</a></li>
+                    <li class="lista__elemento"><a href="" class="elemento__enlace">Search</a></li>
+                    <li class="lista__elemento"><a href="cart.html" class="elemento__enlace">Cart (0)</a></li>
+                </ul>
+            </nav>
+        </article>
+    </header>
+
+    <main class="brand-main">
+        <section class="brand-main__intro">
+            <h1 class="intro__title">Welcome to ZENZONE</h1>
+            <p class="intro__description">
+                At ZENZONE, we blend streetwear style with unmatched quality. Discover the story behind our brand and why we are redefining urban fashion.
+            </p>
+            <button class="intro__cta">Learn More</button>
+        </section>
+    
+        <section class="brand-main__values">
+            <h2 class="values__title">Our Core Values</h2>
+            <ul class="values__list">
+                <li class="values__item">
+                    <h3 class="values__item-title">Sustainability</h3>
+                    <p class="values__item-description">We prioritize eco-friendly materials and sustainable production practices.</p>
+                </li>
+                <li class="values__item">
+                    <h3 class="values__item-title">Community</h3>
+                    <p class="values__item-description">Our designs reflect the culture and energy of urban communities.</p>
+                </li>
+                <li class="values__item">
+                    <h3 class="values__item-title">Innovation</h3>
+                    <p class="values__item-description">We continuously push the boundaries of fashion with innovative designs.</p>
+                </li>
+            </ul>
+        </section>
+    
+        <section class="brand-main__join">
+            <h2 class="join__title">Join ZENZONE</h2>
+            <p class="join__description">
+                Sign up to be a part of the ZENZONE family and get exclusive access to our latest collections and events!
+            </p>
+            <form class="join__form" id="join-form">
+                <fieldset class="join__fieldset">
+                    <legend class="join__legend">Personal Information</legend>
+    
+                    <label for="name" class="join__label">Full Name</label>
+                    <input type="text" id="name" name="name" class="join__input" required placeholder="Your full name">
+    
+                    <label for="email" class="join__label">Email Address</label>
+                    <input type="email" id="email" name="email" class="join__input" required placeholder="Your email address">
+    
+                    <label for="phone" class="join__label">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="join__input" required placeholder="Your phone number">
+    
+                    <label for="dob" class="join__label">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" class="join__input" required>
+    
+                    <label for="terms" class="join__checkbox-label">
+                        <input type="checkbox" id="terms" name="terms" class="join__checkbox" required>
+                        I agree to the <a href="#" class="join__link">Terms & Conditions</a>.
+                    </label>
+    
+                    <button type="submit" class="join__submit-button">Join ZENZONE</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    
+    
+
+    <footer class="footer">
+        <section class="footer__container">
+    
+            <article class="footer__section footer__section--help">
+                <h1 class="footer__title">Help</h1>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Help center</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Track your parcel</a></li>
+                </ul>
+            </article>
+    
+            <article class="footer__section footer__section--giftcards">
+                <h1 class="footer__title">Giftcards</h1>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Explore giftcards</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Exclusive offers</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Custom gifts</a></li>
+                </ul>
+            </article>
+    
+            <article class="footer__section footer__section--partners">
+                <h1 class="footer__title">Partners</h1>
+                <section class="footer__logos">
+                    <img src="assets/dhl.png" alt="Logo 1" class="footer__logo">
+                    <img src="assets/upds.png" alt="Logo 2" class="footer__logo">
+                    <img src="assets/gls.png" alt="Logo 3" class="footer__logo">
+                </section>
+            </article>
+    
+            <article class="footer__section footer__section--payment-methods">
+                <h1 class="footer__title">Payment methods</h1>
+                <section class="footer__logos">
+                    <img src="assets/visa.png" alt="Visa" class="footer__logo">
+                    <img src="assets/master.png" alt="Mastercard" class="footer__logo">
+                    <img src="assets/paypal.png" alt="PayPal" class="footer__logo">
+                </section>
+            </article>
+    
+            <article class="footer__section footer__section--promises">
+                <h1 class="footer__title">Our Promises</h1>
+                <ul class="footer__list">
+                    <li class="footer__item">✔ 24/7 customer support</li>
+                    <li class="footer__item">✔ Satisfaction guarantee</li>
+                    <li class="footer__item">✔ Fast and secure shipping</li>
+                </ul>
+            </article>
+        </section>
+    
+        <section class="footer__bottom">
+            &copy; 2025 ZENZONE. All rights reserved.
+        </section>
+    </footer>
+    
+</body>
+</html>

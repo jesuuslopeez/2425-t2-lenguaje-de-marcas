@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>ZENZONE | STREETWEAR CLOTHING</title>
 </head>
 <body>
     <header class="cabecera">
         <article class="cabecera__logo">
-            <a href="index.html"><img src="img/zenzone-text.png" alt="Logo ZENZONE" class="logo__imagen"></a>
+            <a href="index.html"><img src="assets/zenzone-text.png" alt="Logo ZENZONE" class="logo__imagen"></a>
         </article>
 
         <article class="cabecera__menu">
@@ -18,7 +18,7 @@
                 <ul class="navegacion__lista">
                     <li class="lista__elemento"><a href="index.html" class="elemento__enlace">Home</a></li>
                     <li class="lista__elemento dropdown">
-                        <a href="products.html" class="elemento__enlace">Products</a>
+                        <p class="elemento__enlace">Products</p>
                         <ul class="dropdown__menu">
                             <li><a href="clothing.html" class="dropdown__enlace">Clothing</a></li>
                             <li><a href="merch.html" class="dropdown__enlace">Merch</a></li>
@@ -33,15 +33,54 @@
         </article>
     </header>
 
-    <main>
-
+    <main class="main">
+        <section class="main__hero">
+            <h1 class="hero__title">Discover the Latest Streetwear Trends</h1>
+            <p class="hero__description">Embrace the culture. Elevate your style. Be ZENZONE.</p>
+            <a href="products.html" class="hero__cta">Shop Now</a>
+        </section>
+    
+        <section class="main__featured">
+            <h2 class="featured__title">Featured Products</h2>
+            <section class="featured__grid">
+                <article class="featured__item">
+                    <img src="assets/c1t.png" alt="Oversized Hoodie" class="featured__image">
+                    <h3 class="featured__name">Oversized Hoodie</h3>
+                    <p class="featured__price">$59.99</p>
+                </article>
+                <article class="featured__item">
+                    <img src="assets/c2t.png" alt="Vintage Tee" class="featured__image">
+                    <h3 class="featured__name">Vintage Tee</h3>
+                    <p class="featured__price">$29.99</p>
+                </article>
+                <article class="featured__item">
+                    <img src="assets/c3d.png" alt="Street Joggers" class="featured__image">
+                    <h3 class="featured__name">Street Joggers</h3>
+                    <p class="featured__price">$49.99</p>
+                </article>
+            </section>
+        </section>
+    
+        <section class="main__about">
+            <article class="about__content">
+                <h2 class="about__title">About ZENZONE</h2>
+                <p class="about__text">
+                    At ZENZONE, we believe in fashion that tells a story. Inspired by urban culture and the need for self-expression, 
+                    our collection combines comfort, quality, and individuality.
+                </p>
+                <a href="brand.html" class="about__link">Learn More</a>
+            </article>
+            <article class="about__media">
+                <img src="assets/zenzone-text-black.png" alt="About ZENZONE" class="about__image">
+            </article>
+        </section>
     </main>
-
+    
     <footer class="footer">
         <section class="footer__container">
     
             <article class="footer__section footer__section--help">
-                <h4 class="footer__title">Help</h4>
+                <h1 class="footer__title">Help</h1>
                 <ul class="footer__list">
                     <li class="footer__item"><a href="#" class="footer__link">Help center</a></li>
                     <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
@@ -50,7 +89,7 @@
             </article>
     
             <article class="footer__section footer__section--giftcards">
-                <h4 class="footer__title">Giftcards</h4>
+                <h1 class="footer__title">Giftcards</h1>
                 <ul class="footer__list">
                     <li class="footer__item"><a href="#" class="footer__link">Explore giftcards</a></li>
                     <li class="footer__item"><a href="#" class="footer__link">Exclusive offers</a></li>
@@ -59,25 +98,25 @@
             </article>
     
             <article class="footer__section footer__section--partners">
-                <h4 class="footer__title">Partners</h4>
+                <h1 class="footer__title">Partners</h1>
                 <section class="footer__logos">
-                    <img src="img/dhl.png" alt="Logo 1" class="footer__logo">
-                    <img src="img/upds.png" alt="Logo 2" class="footer__logo">
-                    <img src="img/gls.png" alt="Logo 3" class="footer__logo">
+                    <img src="assets/dhl.png" alt="Logo 1" class="footer__logo">
+                    <img src="assets/upds.png" alt="Logo 2" class="footer__logo">
+                    <img src="assets/gls.png" alt="Logo 3" class="footer__logo">
                 </section>
             </article>
     
             <article class="footer__section footer__section--payment-methods">
-                <h4 class="footer__title">Payment methods</h4>
+                <h1 class="footer__title">Payment methods</h1>
                 <section class="footer__logos">
-                    <img src="img/visa.png" alt="Visa" class="footer__logo">
-                    <img src="img/master.png" alt="Mastercard" class="footer__logo">
-                    <img src="img/paypal.png" alt="PayPal" class="footer__logo">
+                    <img src="assets/visa.png" alt="Visa" class="footer__logo">
+                    <img src="assets/master.png" alt="Mastercard" class="footer__logo">
+                    <img src="assets/paypal.png" alt="PayPal" class="footer__logo">
                 </section>
             </article>
     
             <article class="footer__section footer__section--promises">
-                <h4 class="footer__title">Our Promises</h4>
+                <h1 class="footer__title">Our Promises</h1>
                 <ul class="footer__list">
                     <li class="footer__item">✔ 24/7 customer support</li>
                     <li class="footer__item">✔ Satisfaction guarantee</li>
