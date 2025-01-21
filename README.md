@@ -21,6 +21,6 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e9
  - [x] Carpeta `/js`
  - [x] Carpeta `/assets`con imágenes y vídeos correspondientes
  - [x] Archivo `README.md`explicativo
-![Estructura de carpetas y entregables.](a)
+![Estructura de carpetas y entregables.](assets/estructura.png)
 
 ## Evaluación
