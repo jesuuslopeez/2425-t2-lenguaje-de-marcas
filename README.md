@@ -267,3 +267,6 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/e9461807284aa586
 - [x] Optimización del código: Validación para asegurarse de que el código CSS esté libre de errores de sintaxis y que el archivo sea eficiente.
 - [x] Documentación: Incluir instrucciones de validación en el archivo README.md y una descripción clara de cómo se validó el proyecto.
     - [Archivo de información README.md](README.md)
+
+## Conclusión
+Este es el final de la documentación sobre mi web de ZENZONE, estoy contento con el resultado, aunque todavia es algo muy básico, pero tengo ganas de integrarle JavaScript para darle algo mas de "vidilla" a la página y hacerla mas "profesional".
