@@ -26,7 +26,7 @@
                     </li>
                     <li class="lista__elemento"><a href="brand.html" class="elemento__enlace">Brand</a></li>
                     <li class="lista__elemento"><a href="contact.html" class="elemento__enlace">Contact</a></li>
-                    <li class="lista__elemento"><a href="" e 65dclass="elemento__enlace">Search</a></li>
+                    <li class="lista__elemento"><a href="" class="elemento__enlace">Search</a></li>
                     <li class="lista__elemento"><a href="cart.html" class="elemento__enlace">Cart (0)</a></li>
                 </ul>
             </nav>
@@ -48,8 +48,24 @@
                     
                     <label class="contact-form__label" for="message">Message:</label>
                     <textarea class="contact-form__textarea" id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+
+                    <label class="contact-form__label" for="contact-reason">Reason:</label>
+                    <select class="contact-form__button" id="contact-reason" name="contact-reason">
+                        <option value="order-inquiry">Order Inquiry</option>
+                        <option value="product-feedback">Product Feedback</option>
+                        <option value="store-locations">Store Locations</option>
+                        <option value="returns-exchanges">Returns & Exchanges</option>
+                        <option value="other">Other</option>
+                    </select><br>
+
+                    <label for="myfile">Select a file:</label><br>
+                    <input type="file" id="myfile" name="myfile">
                 </fieldset>
                 
+                <label for="terms" class="contact-form__label">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the <a href="#">Terms & Conditions</a>.
+                </label>
                 <button class="contact-form__button" type="submit">Send</button>
             </form>
         </section>
@@ -89,7 +105,7 @@
                 </li>
                 <li class="contact-details__item">
                     <a href="https://maps.google.com" class="contact-details__link" target="_blank">Find us on Google Maps</a>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7546.112754333678!2d2.170139176767828!3d41.38496247130038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3ae8d4eb1eb%3A0x1ab9653afaea4122!2sNUDE%20PROJECT!5e1!3m2!1ses!2ses!4v1737394135192!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25042.80436298219!2d-0.2287560256836183!3d51.5025028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760ff7a65c591d%3A0xfdc9ac228f26322e!2sZARA!5e1!3m2!1ses!2ses!4v1737444538900!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </li>
             </ul>
         </section>
