@@ -19,8 +19,8 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e9
 #### Usar etiquetas semánticas para organizar el contenido de cada página.
 - `<html>`: Etiqueta principal de la página, que construye la estructura HTML.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/fa5c0748d62e0916b1941ff29b3286e7fe50c93f/index.html#L2-L134
 - `<head>`: Etiqueta de la cabeza de página, que recoge los metadatos, los enlaces a APIs y páginas, título de la pestaña, favicon y muchas más cosas.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/fa5c0748d62e0916b1941ff29b3286e7fe50c93f/index.html#L3-L9
-- `<link>`: Etiqueta que enlaza otras páginas o APIs para complementar la página.  
-- `<title>`: Etiqueta que le da el título a la pestaña de la página en el navegador. https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/fa5c0748d62e0916b1941ff29b3286e7fe50c93f/index.html#L6-L7
+- `<link>`: Etiqueta que enlaza otras páginas o APIs para complementar la página.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/fa5c0748d62e0916b1941ff29b3286e7fe50c93f/index.html#L6-L7
+- `<title>`: Etiqueta que le da el título a la pestaña de la página en el navegador. https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8c65bfd6bc946e194d6b1c5fd0d549d03a35bfd1/contact.html#L8
 - `<body>`:  Etiqueta principal del cuerpo de la página que recoge las partes de la misma, como son la cabecera, el cuerpo y el pie de página.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/fa5c0748d62e0916b1941ff29b3286e7fe50c93f/index.html#L10-L133
 - `<header>`: Etiqueta de la cabecera de una página.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/fa5c0748d62e0916b1941ff29b3286e7fe50c93f/index.html#L11-L34
 - `<article>`: Etiqueta que forma un bloque en la página para dividirlo de otras partes.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L12-L14
