@@ -238,6 +238,7 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/e9461807284aa586
     - Uso de variables:
     ![Variables de colores y tipografías](assets/variables.png)
 - [x] Responsive Design: Uso de media queries para garantizar la adaptabilidad del diseño a diferentes dispositivos.
+    - https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/06a6fca1aa1496ca11305c4398cc3b51cb603c87/css/styles.css#L1108-L1193
 - [x] Dark Mode: Implementación básica de un tema oscuro utilizando CSS variables o clases específicas.
     - Preparado a través de variables para un cambio futuro con JS.
     ![Variables de colores y tipografías](assets/variables.png)
