@@ -73,16 +73,30 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f
 #### Usar una única hoja de estilos para toda la web, organizada mediante la metodología BEM para mantener consistencia y claridad.
 - Único archivo CSS ->   [`styles.css`](css/styles.css)
 - Metodología BEM:  
-https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/6367847bee1e7244020fa18837e7303c6623682b/css/styles.css#L27-L103
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/6367847bee1e7244020fa18837e7303c6623682b/css/styles.css#L29-L105
 
 #### Usar variables CSS para definir colores y tipografías, permitiendo fácil actualización del diseño.
 - Variables:  
-https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/6367847bee1e7244020fa18837e7303c6623682b/css/styles.css#L9-L16
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182414168478a24967bee692fea/css/styles.css#L9-L19
 
 #### Implementar un diseño responsive mediante media queries.
 
 
-####
+#### Incluir un diseño básico con soporte para Dark Mode.
+- Variables:  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182414168478a24967bee692fea/css/styles.css#L9-L19
+
+- Uso de variables:  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182414168478a24967bee692fea/css/styles.css#L67-L73
+
+#### Crear transiciones y animaciones que mejoren la experiencia del usuario, aplicándolas a elementos clave como botones, menús o imágenes.
+- Ejemplos:  
+
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182414168478a24967bee692fea/css/styles.css#L43-L45  
+
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182414168478a24967bee692fea/css/styles.css#L75-L77  
+
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182414168478a24967bee692fea/css/styles.css#L99-L101
 
 
 ### 3. Contenido esencial
