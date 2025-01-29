@@ -39,8 +39,35 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e9
 - `<fieldset>`: Etiqueta para agrupar varios elementos de un formulario.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L40-L63
 - `<legend>`: Etiqueta utilizada para describir los campos a rellenar.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L41
 - `<label>`: Etiqueta que le da nombre al campo.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L43
-- `<input>`: Etiqueta en la que el usuario introduce o marca algo.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L44
+- `<input>`: Etiqueta en la que el usuario introduce o marca algo.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L44  
 
+#### Implementar un formulario funcional con al menos seis campos diferentes, asegurando la validación de campos requeridos y tipos de datos adecuados.
+- Formulario estilo Newsletter  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f4abd0a769ac2897647350c0e/brand.html#L63-L92  
+![Formulario con estilo newsletter.](assets/newsletter.png)  
+
+- Formulario de contacto  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f4abd0a769ac2897647350c0e/contact.html#L37-L71  
+![Formulario de contacto.](assets/contact.png)  
+
+#### Las cuatro páginas deben tener estructuras distintas, no solamente elementos seguidos en columna.
+- Página 1:  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f4abd0a769ac2897647350c0e/index.html#L1-L134
+
+- Página 2:  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f4abd0a769ac2897647350c0e/clothing.html#L1-L155
+
+- Página 3:  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f4abd0a769ac2897647350c0e/brand.html#L1-L152
+
+- Página 4:  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f4abd0a769ac2897647350c0e/contact.html#L1-L169
+
+- Página 5: 
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f4abd0a769ac2897647350c0e/cart.html#L1-L153
+
+- Página 6 (Relleno):  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f4abd0a769ac2897647350c0e/brand.html#L1-L152
 
 ### 2. Estilos CSS 3
 
