@@ -17,7 +17,7 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e9
 https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L79-L131
 
 #### Usar etiquetas semánticas para organizar el contenido de cada página.
-- `<html>`: Etiqueta principal de la página, que construye la estructura HTML.  
+- `<html>`: Etiqueta principal de la página, que construye la estructura HTML.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22fa59326f32ae99d34fe166b7b015ae1cdbcfa7/index.html#L2
 - `<head>`: Etiqueta de la cabeza de página, que recoge los metadatos, los enlaces a APIs y páginas, título de la pestaña, favicon y muchas más cosas.  
 - `<link>`: Etiqueta que enlaza otras páginas o APIs para complementar la página.  
 - `<title>`: Etiqueta que le da el título a la pestaña de la página en el navegador.   
