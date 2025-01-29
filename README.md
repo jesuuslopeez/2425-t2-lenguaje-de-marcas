@@ -23,23 +23,23 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e9
 - `<title>`: Etiqueta que le da el título a la pestaña de la página en el navegador. https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/fa5c0748d62e0916b1941ff29b3286e7fe50c93f/index.html#L6-L7
 - `<body>`:  Etiqueta principal del cuerpo de la página que recoge las partes de la misma, como son la cabecera, el cuerpo y el pie de página.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/fa5c0748d62e0916b1941ff29b3286e7fe50c93f/index.html#L10-L133
 - `<header>`: Etiqueta de la cabecera de una página.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/fa5c0748d62e0916b1941ff29b3286e7fe50c93f/index.html#L11-L34
-- `<article>`: Etiqueta que forma un bloque en la página para dividirlo de otras partes.  
-- `<a>`: Etiqueta utilizada para enlazar páginas entre si.
-- `<img>`: Etiqueta para añadir imágenes a la página web.
-- `<nav>`: Etiqueta para el menú de navegación con otras páginas.  
-- `<ul>`: Etiqueta de una lista desordenada.  
-- `<li>`: Etiqueta de los elementos de la lista.  
-- `<p>`: Etiqueta para parrafos de texto.
-- `<main>`: Etiqueta del cuerpo principal de la página, donde irá todo lo que no sea la cabecera o el pie de página.  
-- `<section>`: Etiqueta para dividir por secciones las partes de la página.  
-- `<h1>`: Etiqueta para poner un título a la página, también se pueden utilizar `h2`, `h3`, `h4`, `h5`, `h6`.
-- `<footer>`: Etiqueta para el pie de página.
-- `<button>`: Etiqueta para crear un botón al que añadirle funciones. 
-- `<form>`: Etiqueta base para crear un formulario. 
-- `<fieldset>`: Etiqueta para agrupar varios elementos de un formulario.  
-- `<legend>`: Etiqueta utilizada para describir los campos a rellenar.  
-- `<label>`: Etiqueta que le da nombre al campo.  
-- `<input>`: Etiqueta en la que el usuario introduce o marca algo.  
+- `<article>`: Etiqueta que forma un bloque en la página para dividirlo de otras partes.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L12-L14
+- `<a>`: Etiqueta utilizada para enlazar páginas entre si.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L13
+- `<img>`: Etiqueta para añadir imágenes a la página web.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L112
+- `<nav>`: Etiqueta para el menú de navegación con otras páginas.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L17-L32
+- `<ul>`: Etiqueta de una lista desordenada.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L18-L31
+- `<li>`: Etiqueta de los elementos de la lista.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L19
+- `<p>`: Etiqueta para parrafos de texto.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L21
+- `<main>`: Etiqueta del cuerpo principal de la página, donde irá todo lo que no sea la cabecera o el pie de página.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L36-L77
+- `<section>`: Etiqueta para dividir por secciones las partes de la página.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L37-L41
+- `<h1>`: Etiqueta para poner un título a la página, también se pueden utilizar `h2`, `h3`, `h4`, `h5`, `h6`.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L38
+- `<footer>`: Etiqueta para el pie de página.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/index.html#L79-L131
+- `<button>`: Etiqueta para crear un botón al que añadirle funciones. https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L69
+- `<form>`: Etiqueta base para crear un formulario. https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L39-L70
+- `<fieldset>`: Etiqueta para agrupar varios elementos de un formulario.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L40-L63
+- `<legend>`: Etiqueta utilizada para describir los campos a rellenar.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L41
+- `<label>`: Etiqueta que le da nombre al campo.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L43
+- `<input>`: Etiqueta en la que el usuario introduce o marca algo.  https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/1d856abcee11dda41c129a356ee6f9fb9f778a41/contact.html#L44
 
 
 ### 2. Estilos CSS 3
