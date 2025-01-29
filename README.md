@@ -70,6 +70,20 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f
 https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/8f70a2d601659a2f4abd0a769ac2897647350c0e/brand.html#L1-L152
 
 ### 2. Estilos CSS 3
+#### Usar una única hoja de estilos para toda la web, organizada mediante la metodología BEM para mantener consistencia y claridad.
+- Único archivo CSS ->   [`styles.css`](css/styles.css)
+- Metodología BEM:  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/6367847bee1e7244020fa18837e7303c6623682b/css/styles.css#L27-L103
+
+#### Usar variables CSS para definir colores y tipografías, permitiendo fácil actualización del diseño.
+- Variables:  
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/6367847bee1e7244020fa18837e7303c6623682b/css/styles.css#L9-L16
+
+#### Implementar un diseño responsive mediante media queries.
+
+
+####
+
 
 ### 3. Contenido esencial
 
