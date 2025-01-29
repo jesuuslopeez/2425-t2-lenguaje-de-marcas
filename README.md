@@ -100,8 +100,23 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182
 
 
 ### 3. Contenido esencial
+#### Crear un menú de navegación funcional que enlace correctamente las páginas.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/e9461807284aa5865e7e531be9937d768752d6ae/index.html#L17-L32
+
+#### Incorporar una página con datos relevantes del cliente.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/e9461807284aa5865e7e531be9937d768752d6ae/contact.html#L1-L169
+
+#### Añadir elementos multimedia que enriquezca la parte visual.
+- Estos elementos multimedia se encuentran almacenados en la carpeta [`Assets`](/assets/).
+
+#### La jerarquía de la información debe estar clara.
+
 
 ### 4. Páginas requeridas
+- [Página principal](index.html): Breve introducción y resumen del sitio.
+- Página de servicios o [productos](clothing.html): Descripción detallada del catálogo o servicios del cliente.
+- [Página de contacto](contact.html): Formulario funcional y enlaces a redes sociales.
+- [Página adicional](cart.html): De libre elección según el contexto (blog, testimonios, galería, etc.).
 
 ### 5. Validación
 #### HTML:
@@ -122,11 +137,132 @@ https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182
 ![Validación de la hoja de estilos.](assets/val_css.png)  
 ### 6. Entregable
  - [x] Archivos HTML
- - [x] Carpeta `/css` con archivo `styles.css`
- - [x] Carpeta `/js`
- - [x] Carpeta `/assets`con imágenes y vídeos correspondientes
- - [x] Archivo `README.md`explicativo  
+ - [x] Carpeta [`/css`](/css) con archivo [`styles.css`](/css/styles.css)
+ - [x] Carpeta [`/js`](/js/)
+ - [x] Carpeta [`/assets`](/assets/) con imágenes y vídeos correspondientes
+ - [x] Archivo [`README.md`](/README.md) explicativo  
  
 ![Estructura de carpetas y entregables.](assets/estructura.png)  
 
 ## Evaluación
+### b) Se ha analizado la estructura de un documento HTML e identificado las secciones que lo componen.
+- [x] Indentación y legibilidad: Código correctamente indentado para facilitar la lectura.
+    - ![Indentación y estructura de la página](assets/indent.png)
+- [x] Uso de etiquetas semánticas: Uso adecuado de etiquetas como header, main, footer, section, article, entre otras.
+    - `Header`:  
+     https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L11-L34
+    - `Main`:  
+    https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L36-L77
+    - `Footer`:  
+    https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L79-L131
+    - `Section`:  
+    https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L37-L41
+    - `Article`:  
+    https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L12-L14
+- [x] Comentarios: Uso de comentarios útiles para explicar la estructura del documento.
+- [x] Organización lógica: Estructura jerárquica y lógica que refleje la intención del contenido del documento.
+    - Organización del `index.html`:  
+    https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L1-L134
+- [x] Validación: Código que pase las validaciones del W3C sin errores.
+    - ![Validación de la página index.](assets/val_index.png)  
+    - ![Validación de la página clothing.](assets/val_clothing.png)  
+    - ![Validación de la página merch.](assets/val_merch.png)  
+    - ![Validación de la página brand.](assets/val_brand.png)  
+    - ![Validación de la página contact.](assets/val_contact.png)  
+    - ![Validación de la página cart.](assets/val_cart.png)  
+
+### c) Se ha reconocido y aplicado de forma práctica la funcionalidad de las principales etiquetas y los atributos del lenguaje HTML.
+- [x] Uso adecuado de etiquetas clave: Correcta implementación de etiquetas como img, a, form, y otras relevantes.
+    - `Img`:  
+    https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L74
+    - `A`:  
+    https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L71
+    - `Form`:  
+    https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/brand.html#L68-L91
+- [x] Semántica: Uso de etiquetas semánticas como header, section, footer en lugar de div genéricos.
+    - `Header`:  
+         https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L11-L34
+    - `Footer`:  
+        https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L79-L131
+    - `Section`:  
+        https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L37-L41
+- [x] Atributos globales: Aplicación de atributos globales como id, class, title, o style en los contextos adecuados.
+    - Atributos globales en `index.html`:  
+    https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/67b8944399cbc4e95c862d6ead152d5d6071db75/index.html#L1-L134
+- [x] Validación: Garantizar que el código HTML pase las validaciones del W3C.
+    - ![Validación de la página index.](assets/val_index.png)  
+    - ![Validación de la página clothing.](assets/val_clothing.png)  
+    - ![Validación de la página merch.](assets/val_merch.png)  
+    - ![Validación de la página brand.](assets/val_brand.png)  
+    - ![Validación de la página contact.](assets/val_contact.png)  
+    - ![Validación de la página cart.](assets/val_cart.png)  
+- [x] Comentarios y legibilidad: Añadir comentarios útiles y mantener una estructura clara y organizada del código.
+
+### e) Se han utilizado herramientas en la creación de documentos web.
+- [x] Optimización del editor: Uso de extensiones, temas, y configuraciones específicas para mejorar la productividad (por ejemplo, Prettier, linters o Emmet).
+    - Extensiones de Visual Studio Code instaladas:  
+    ![Extensiones VSCode.](assets/vscode.png)  
+- [x] Control de versiones: Aplicación de Git para gestionar versiones del proyecto y uso adecuado de GitHub para compartir el trabajo.
+    - Control de versiones desde Visual Studio Code:  
+    ![Control de versiones.](assets/git.png)  
+- [x] Validación: Uso de validadores como el W3C Validator para HTML y CSS.
+    - ![Validación de la página index.](assets/val_index.png)  
+    - ![Validación de la página clothing.](assets/val_clothing.png)  
+    - ![Validación de la página merch.](assets/val_merch.png)  
+    - ![Validación de la página brand.](assets/val_brand.png)  
+    - ![Validación de la página contact.](assets/val_contact.png)  
+    - ![Validación de la página cart.](assets/val_cart.png) 
+    - ![Validación de la hoja de estilos.](assets/val_css.png)  
+- [x] Organización de archivos: Mantener una estructura clara de carpetas y archivos dentro del proyecto.
+    - Estructura del proyecto:  
+    ![Estructura de carpetas y entregables.](assets/estructura.png)  
+- [x] Eficiencia en el flujo de trabajo: Uso de atajos de teclado, terminal integrada, y otros recursos para optimizar la creación de documentos web.
+    - Uso de terminal para control de versiones:
+        ![Terminal integrada VSCode](assets/terminal.png)
+
+### f) Se han identificado y demostrado de forma práctica las ventajas que aporta la utilización de hojas de estilo.
+- [x] Organización del código: Separación clara entre secciones del CSS y comentarios explicativos cuando sea necesario.
+    - Separación del CSS por comentarios de texto.
+    ![Separación del CSS con comentarios](assets/sepcss.png)
+- [x] Uso de herramientas y validación: Garantizar que el CSS pase las validaciones del W3C y utilizar editores que faciliten el seguimiento de las normas.
+    - ![Validación de la hoja de estilos.](assets/val_css.png)  
+- [x] Evitar repeticiones: Aplicación de principios DRY (Don't Repeat Yourself) en la hoja de estilos.
+- [x] Claridad y mantenimiento: Uso de variables CSS y estructuras que permitan cambios fáciles y rápidos en el diseño.
+    - Uso de variables:
+    ![Variables de colores y tipografías](assets/variables.png)
+
+### g) Se han aplicado hojas de estilo.
+- [x] Metodología BEM: Organización del CSS utilizando la metodología BEM para facilitar la claridad y la reutilización.
+    - Utilizada en [styles.css](/css/styles.css)
+- [x] Uso de variables: Implementación de variables para definir colores, tipografías y otros aspectos repetitivos del diseño.
+    - Uso de variables:
+    ![Variables de colores y tipografías](assets/variables.png)
+- [x] Responsive Design: Uso de media queries para garantizar la adaptabilidad del diseño a diferentes dispositivos.
+- [x] Dark Mode: Implementación básica de un tema oscuro utilizando CSS variables o clases específicas.
+    - Preparado a través de variables para un cambio futuro con JS.
+    ![Variables de colores y tipografías](assets/variables.png)
+- [x] Transiciones y animaciones: Uso de propiedades como transition y @keyframes para mejorar la experiencia del usuario.
+    - https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182414168478a24967bee692fea/css/styles.css#L43-L45  
+
+    - https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182414168478a24967bee692fea/css/styles.css#L75-L77  
+
+    - https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/5e1129c0a05c5182414168478a24967bee692fea/css/styles.css#L99-L101
+- [x] Organización del archivo CSS: Estructuración del código en secciones claras y comentadas.
+    - Separación del CSS por comentarios de texto
+    ![Separación del CSS con comentarios](assets/sepcss.png)
+- [x] Validación: Código CSS que pase las validaciones del W3C sin errores.
+    - ![Validación de la hoja de estilos.](assets/val_css.png)  
+
+### h) Se han validado documentos HTML y CSS.
+- [x] Uso de W3C Validator: Validación de los documentos HTML y CSS utilizando las herramientas adecuadas del W3C Validator, sin errores.
+    - ![Validación de la página index.](assets/val_index.png)  
+    - ![Validación de la página clothing.](assets/val_clothing.png)  
+    - ![Validación de la página merch.](assets/val_merch.png)  
+    - ![Validación de la página brand.](assets/val_brand.png)  
+    - ![Validación de la página contact.](assets/val_contact.png)  
+    - ![Validación de la página cart.](assets/val_cart.png) 
+    - ![Validación de la hoja de estilos.](assets/val_css.png)  
+- [x] Estructura semántica: Validación de la estructura semántica de las páginas HTML y corrección de errores relacionados con el uso de etiquetas.
+- [x] Optimización del código: Validación para asegurarse de que el código CSS esté libre de errores de sintaxis y que el archivo sea eficiente.
+- [x] Documentación: Incluir instrucciones de validación en el archivo README.md y una descripción clara de cómo se validó el proyecto.
+    - [Archivo de información README.md](README.md)
