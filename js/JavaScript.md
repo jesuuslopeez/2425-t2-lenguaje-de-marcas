@@ -57,3 +57,77 @@
     print(saludar()); // "Hola, jesus!"
     }
 
+## Se ha identificado la sintaxis básica de los lenguajes de script de cliente.
+### Uso adecuado de let y const en lugar de var.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L3
+
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L5
+
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L22
+
+### Aplicación correcta de arrow functions y template literals.
+
+### Uso de destructuring y spread/rest operators cuando sea necesario.
+
+### Código bien estructurado, indentado y comentado.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L1-L80
+
+## Se han utilizado métodos para la selección y acceso de los diferentes elementos de un documento web.
+### Uso adecuado de querySelector y querySelectorAll.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L3
+
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L5
+
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L22
+
+### Justificación del uso de diferentes métodos según el contexto.
+- Aquí estoy seleccionado únicamente el contenedor sin all ya que voy a añadir un producto.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L3
+
+- Aquí selecciono todos los elementos del carrito, y entre ellos, elimino el que tenga el 0 como índice.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L5
+
+### Código organizado y funcional.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L1-L80
+
+## Se han creado y modificado elementos de documentos web.
+### Uso adecuado de createElement, appendChild y removeChild para manejar elementos dinámicamente.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L5
+
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L15
+
+### Aplicación de textContent o innerHTML de manera segura.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L44
+
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L8
+
+### Organización clara del código y mantenimiento de una estructura jerárquica lógica.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L1-L80
+
+### Inclusión de comentarios explicativos cuando sea necesario.
+No están en el código, pero si en [Archivo con comentarios](./SCRIPT.md), que es el archivo explicativo.
+
+## Se han eliminado elementos de documentos web.
+### Uso correcto de removeChild y remove para eliminar elementos dinámicamente.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L25
+
+### Gestión eficiente del DOM para evitar errores al eliminar elementos.
+
+### Verificación de la existencia de elementos antes de intentar eliminarlos.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L24
+
+### Código estructurado y organizado con comentarios aclaratorios cuando sea necesario.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L1-L80
+
+## Se han realizado modificaciones sobre los estilos de un documento web.
+### Uso adecuado de classList.add, classList.remove y classList.toggle en lugar de modificar estilos directamente.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L6
+
+### Aplicación eficiente de style.property solo cuando sea necesario.
+https://github.com/jesuuslopeez/2425-t2-lenguaje-de-marcas/blob/22ee9da61bd6832d58eeee04674a52b41f187d5e/js/script.js#L34
+
+### Organización del código con separación entre lógica y presentación.
+
+### Uso de eventos para modificar estilos dinámicamente según la interacción del usuario.
+
+
