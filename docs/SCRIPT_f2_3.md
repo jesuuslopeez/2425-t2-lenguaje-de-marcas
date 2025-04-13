@@ -70,6 +70,10 @@
 
 - Uso:  
 ![Galeria](../assets/galeria.gif)
+- Instrucciones:
+    - Introduce un enlace de imagen válido.
+    - La imagen se cargará en la galería.
+    - Para eliminarla pulsa en su botón correspondiente de "Remove image".
 
 
 ### - Diseñar un formulario con validación dinámica que muestre mensajes de error o éxito según la interacción del usuario.
@@ -208,6 +212,9 @@
 
 - Uso:  
 ![Formulario](../assets/form.gif)
+- Instrucciones:
+    - Prueba a introducir un valor erróneo como un número en el nombre, y comprobarás el funcionamiento.
+    - Introduce los valores correctos para verificar el funcionamiento.
 
 
 ### - Implementar un sistema de filtros que permita mostrar u ocultar elementos de la página (por ejemplo, productos o entradas de blog) según criterios seleccionados por el usuario.
@@ -235,6 +242,9 @@
 
 - Uso:  
 ![Filtros](../assets/filtros.gif)
+- Instrucciones:
+    - Pulsa alguno de los 5 botones para comprobar que el filtrado se haga.
+    - Pulsa el botón "All" para volver al estado inicial.
 
 ### - Crear un flujo libre del proyecto. (por ejemplo proceso de incluir productos al carrito de compra.)
 - Archivo: `script.js`
@@ -464,6 +474,13 @@
 
 - Uso:  
 ![Carrito](../assets/carrito.gif)
+- Instrucciones:
+    - Ve a la pagina productos.
+    - Elige uno de los tantos productos para añadirlo al carrito.
+    - Fijate en el header como se incrementa el numero de productos en el carrito.
+    - Ve al carrito.
+    - Pulsa + o - para jugar con las cantidades de productos.
+    - Elimina productos para comprobar el funcionamiento del boton y de los precios del total.
 
 
 
