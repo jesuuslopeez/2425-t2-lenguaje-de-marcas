@@ -34,7 +34,6 @@
                     </li>
                     <li class="lista__elemento"><a href="brand.html" class="elemento__enlace">Brand</a></li>
                     <li class="lista__elemento"><a href="contact.html" class="elemento__enlace">Contact</a></li>
-                    <li class="lista__elemento"><a href="" class="elemento__enlace">Search</a></li> <!--Futuro botón de búsqueda-->
                     <li class="lista__elemento"><a href="cart.html" class="elemento__enlace">Cart (0)</a></li>
                 </ul>
             </nav>
@@ -46,11 +45,19 @@
             <h1 class="hero__title">Merchandise Collection</h1>
             <p class="hero__description">Show your love for the brand with exclusive merchandise. Perfect for fans and supporters!</p>
         </section>
+
+        <section class="filters">
+            <button class="filter-button" data-filter="all">All</button>
+            <button class="filter-button" data-filter="thermo">Thermos</button>
+            <button class="filter-button" data-filter="cap">Caps</button>
+            <button class="filter-button" data-filter="bag">Bags</button>
+            <button class="filter-button" data-filter="sticker">Stickers</button>
+        </section>
     
         <section class="main__products">
             <h2 class="products__title">Featured Merchandise</h2>
             <section class="products__grid">
-                <article class="products__item">
+                <article class="products__item" data-category="thermo">
                     <img src="assets/thermo.png" alt="Brand Thermo" class="products__image">
                     <h3 class="products__name">Logo thermo</h3>
                     <p class="products__price">$14.99</p>
@@ -59,7 +66,7 @@
                         <button class="products__button products__button--add-cart">Add to Cart</button>
                     </section>
                 </article>
-                <article class="products__item">
+                <article class="products__item" data-category="cap">
                     <img src="assets/cap.png" alt="Logo Cap" class="products__image">
                     <h3 class="products__name">Logo Cap</h3>
                     <p class="products__price">$24.99</p>
@@ -68,7 +75,7 @@
                         <button class="products__button products__button--add-cart">Add to Cart</button>
                     </section>
                 </article>
-                <article class="products__item">
+                <article class="products__item" data-category="bag">
                     <img src="assets/bag.png" alt="Travel Bag" class="products__image">
                     <h3 class="products__name">Travel Bag</h3>
                     <p class="products__price">$19.99</p>
@@ -77,7 +84,7 @@
                         <button class="products__button products__button--add-cart">Add to Cart</button>
                     </section>
                 </article>
-                <article class="products__item">
+                <article class="products__item" data-category="sticker">
                     <img src="assets/sticker.png" alt="Sticker Pack" class="products__image">
                     <h3 class="products__name">Sticker Pack</h3>
                     <p class="products__price">$9.99</p>
@@ -103,6 +110,8 @@
                 <p class="benefits__description">Get it before it’s gone—our merchandise is produced in small batches.</p>
             </article>
         </section>
+
+        <script src="js/script.js"></script>
     </main>
     
 
